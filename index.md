@@ -18,17 +18,23 @@ An attempt to provide detailed intuitive explanations to leetcode problems.
 
 ## Getting started
 
-### Dependencies
+### About
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+This repository is a collection of my explanations to the leetcode problems. Along with the explanation, a working code snippet (passing all test cases in the leetcode website) is also included in the write-ups.
 
-### Quick start: Use as a GitHub Pages remote theme
+Hence, the solutions won't directly execute on your local IDE or compiler, the main() would need to be written and the solution's function would need to be invoked with appropriate inputs/test cases to run in standalone.
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+### How to contribute?
+
+1. Fork the repository.
+
+2. Do the desired changes (add/delete/modify).
+
+3. Make sure you've followed the existing coding standards and pattern of pasting the entire problem statement with a link to the problem on Leetcode. For reference, you can follow any existing file in this Repo. e.g. [SmallestGoodBase.java](https://github.com/kshitijmishra23/leetCode/blob/master/java/SmallestGoodBase.java)
+
+4. Attach a screenshot from Leetcode showing that your solution was ACCEPTED by the online judge.
+
+5. Make a pull request.
 
 ### Local installation: Use the gem-based theme
 
